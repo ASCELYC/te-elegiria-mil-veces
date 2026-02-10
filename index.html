@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Te elegiría mil veces 💛</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+
+    <!-- NAV SUPERIOR -->
+    <nav class="hero-nav">
+      <div class="logo">Para Paula 💛</div>
+
+      <!-- 🔑 clase extra para controlar alineación y separación -->
+      <ul class="menu menu-love">
+        <li>Te amo</li>
+        <li>Te quiero</li>
+        <li>Siempre tú</li>
+        <li>Mi lugar favorito</li>
+      </ul>
+
+      <div class="heart">15 ❤️</div>
+    </nav>
+
+    <!-- VIDEO DE FONDO -->
+    <video id="heroVideo" autoplay muted playsinline></video>
+
+    <!-- AUDIO -->
+    <audio id="heroAudio" loop>
+      <source src="music/intro/Kodaline - All I Want (Lyrics)(MP3_320K).mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- OVERLAY -->
+    <div class="hero-overlay"></div>
+
+    <!-- CONTENIDO HERO -->
+    <div class="hero-content">
+
+      <!-- TEXTO -->
+      <div class="hero-text">
+        <h1>Te elegiría mil veces</h1>
+
+        <!-- 💛 TEXTO NUEVO -->
+        <p>
+          Esta página la hice por San Valentín, para recordarte lo mucho que te amo,
+          lo importante que eres para mí y lo feliz que soy de tenerte en mi vida.
+          Cada video, cada recuerdo y cada detalle representan el amor que te tengo.
+          Espero que te guste. TE AMO AMOR DE MI VIDA.
+        </p>
+      </div>
+
+      <!-- BOTÓN AUDIO -->
+      <button id="audioToggle" class="audio-btn">
+        🔊 Activar sonido
+      </button>
+
+      <!-- CARRUSEL -->
+      <div class="hero-row">
+
+        <div class="carousel-arrow left">❮</div>
+
+        <div class="video-row" id="videoRow">
+          <!-- JS inserta miniaturas -->
+        </div>
+
+        <div class="carousel-arrow right">❯</div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- =========================
+     GALERÍA
+========================= -->
+  <section id="galeria" class="gallery-section">
+
+    <!-- TÍTULO -->
+    <div class="gallery-header">
+      <h2>Nuestros recuerdos 💛</h2>
+      <p>Momentos que siempre llevaré en el corazón</p>
+    </div>
+
+    <!-- GRID TIPO INSTAGRAM -->
+    <div class="gallery-grid">
+
+      <!-- FOTO 1 -->
+      <div class="gallery-item">
+        <img src="galeria/01.jpg" alt="Recuerdo 1" data-index="0">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/02.jpg" alt="Recuerdo 2" data-index="1">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/03.jpg" alt="Recuerdo 3" data-index="2">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/04.jpg" alt="Recuerdo 4" data-index="3">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/05.jpg" alt="Recuerdo 5" data-index="4">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/06.jpg" alt="Recuerdo 6" data-index="5">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/07.jpg" alt="Recuerdo 7" data-index="6">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/08.jpg" alt="Recuerdo 8" data-index="7">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/09.jpg" alt="Recuerdo 9" data-index="8">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/10.jpg" alt="Recuerdo 10" data-index="9">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/11.jpg" alt="Recuerdo 11" data-index="10">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/12.jpg" alt="Recuerdo 12" data-index="11">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/13.jpg" alt="Recuerdo 13" data-index="12">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/14.jpg" alt="Recuerdo 14" data-index="13">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/15.jpg" alt="Recuerdo 15" data-index="14">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/16.jpg" alt="Recuerdo 16" data-index="15">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/17.jpg" alt="Recuerdo 17" data-index="16">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/18.JPG" alt="Recuerdo 18" data-index="17">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/19.JPG" alt="Recuerdo 19" data-index="18">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/20.jpg" alt="Recuerdo 20" data-index="19">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/21.jpg" alt="Recuerdo 21" data-index="20">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/22.jpg" alt="Recuerdo 22" data-index="21">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/23.jpg" alt="Recuerdo 23" data-index="22">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/24.jpg" alt="Recuerdo 24" data-index="23">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/25.jpg" alt="Recuerdo 25" data-index="24">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/26.jpg" alt="Recuerdo 26" data-index="25">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/27.jpeg" alt="Recuerdo 27" data-index="26">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/28.jpg" alt="Recuerdo 28" data-index="27">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/29.jpg" alt="Recuerdo 29" data-index="28">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+      <div class="gallery-item">
+        <img src="galeria/30.jpeg" alt="Recuerdo 30" data-index="29">
+        <span class="gallery-like">❤️</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================
+      MODAL GALERÍA
+  ========================= -->
+  <div class="gallery-modal" id="galleryModal">
+    <div class="gallery-modal-content">
+
+      <!-- Botón cerrar -->
+      <span class="gallery-modal-close">&times;</span>
+
+      <!-- Imagen grande -->
+      <img src="" alt="Foto ampliada" class="gallery-modal-img">
+
+      <!-- Flechas -->
+      <div class="modal-arrow left">❮</div>
+      <div class="modal-arrow right">❯</div>
+
+      <!-- Reacción -->
+      <div class="modal-heart">❤️</div>
+
+      <!-- Corazón esquina (like) -->
+      <div class="modal-like-btn">♡</div>
+
+    </div>
+  </div>
+  
+    <!-- =========================
+      SECCIÓN CANCIONES
+  ========================= -->
+  <section id="canciones" class="songs-section">
+
+    <!-- HEADER -->
+    <div class="songs-header">
+      <h2>Canciones Que Me Hacen Pensar En Ti 💗</h2>
+      <p>Cada canción guarda un pedacito de mi amor por ti</p>
+    </div>
+
+    <!-- AUDIO GLOBAL (playlist) -->
+  <audio id="songsAudio"></audio>
+
+  <!-- CARRUSEL -->
+  <div class="songs-carousel">
+
+    <!-- Flecha izquierda -->
+    <button class="songs-arrow left" aria-label="Canción anterior">❮</button>
+
+    <!-- CONTENEDOR HORIZONTAL -->
+    <div class="songs-row" id="songsRow">
+
+        <!-- CANCIÓN 1 -->
+        <div class="song-card" data-index="0" data-audio="music/songs/01.mp3">
+          <div class="song-cover">
+            <img src="canciones/01.jpg" alt="Canción 1">
+          </div>
+
+          <div class="song-info">
+            <h3>Middle - DJ Snake</h3>
+            <p>I'll promise to build a new world for us two, With you in the middle 💛</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 2 -->
+        <div class="song-card" data-index="1" data-audio="music/songs/02.mp3">
+          <div class="song-cover">
+            <img src="canciones/02.jpg" alt="Canción 2">
+          </div>
+
+          <div class="song-info">
+            <h3>Dias De Sol Nublados - Dread Mar-I</h3>
+            <p>Si amanece y no estas a mi lado, los dias de sol ya son nublados ✨</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 3 -->
+        <div class="song-card" data-index="2" data-audio="music/songs/03.mp3">
+          <div class="song-cover">
+            <img src="canciones/03.jpg" alt="Canción 3">
+          </div>
+
+          <div class="song-info">
+            <h3>Adventure Of A Lifetime - Coldplay</h3>
+            <p>And if we´ve only got this life and this adventure, oh then I wanna share it with you 🌸</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 4 -->
+        <div class="song-card" data-index="3" data-audio="music/songs/04.mp3">
+          <div class="song-cover">
+            <img src="canciones/04.jpg" alt="Canción 4">
+          </div>
+
+          <div class="song-info">
+            <h3>Experiencia Religiosa - Enrique Iglesias</h3>
+            <p>Cada vez que estoy contigo, yo descubro el infinito 💋</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 5 -->
+        <div class="song-card" data-index="4" data-audio="music/songs/05.mp3">
+          <div class="song-cover">
+            <img src="canciones/05.jpg" alt="Canción 5">
+          </div>
+
+          <div class="song-info">
+            <h3>Sparks - Coldplay</h3>
+            <p>My heart is yours 💗</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 6 -->
+        <div class="song-card" data-index="5" data-audio="music/songs/06.mp3">
+          <div class="song-cover">
+            <img src="canciones/06.jpg" alt="Canción 6">
+          </div>
+
+          <div class="song-info">
+            <h3>Prometo - Fonseca</h3>
+            <p>Te prometo que seras mi consentida, Te prometo que estaré siempre en tu vida 🤍</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 7 -->
+        <div class="song-card" data-index="6" data-audio="music/songs/07.mp3">
+          <div class="song-cover">
+            <img src="canciones/07.jpg" alt="Canción 7">
+          </div>
+
+          <div class="song-info">
+            <h3>Latch - Disclosure</h3>
+            <p>What did you give me to make my heart beat out my chest? 👩‍❤️‍💋‍👨</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 8 -->
+        <div class="song-card" data-index="7" data-audio="music/songs/08.mp3">
+          <div class="song-cover">
+            <img src="canciones/08.jpg" alt="Canción 8">
+          </div>
+
+          <div class="song-info">
+            <h3>Bachata En Fukuoka - Juan Luis Guerra</h3>
+            <p>Quiero cantar contigo, una bachata en Fukuoka 🌷</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 9 -->
+        <div class="song-card" data-index="8" data-audio="music/songs/09.mp3">
+          <div class="song-cover">
+            <img src="canciones/09.jpg" alt="Canción 9">
+          </div>
+
+          <div class="song-info">
+            <h3>Can't Help Falling In Love - Elvis Presley</h3>
+            <p>Take my hand, take my whole life, too 💍</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 10 -->
+        <div class="song-card" data-index="9" data-audio="music/songs/10.mp3">
+          <div class="song-cover">
+            <img src="canciones/10.jpg" alt="Canción 10">
+          </div>
+
+          <div class="song-info">
+            <h3>Es Por Ti - Juanes</h3>
+            <p>Tus ojos me llevan lentamente al sol 🌹</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 11 -->
+        <div class="song-card" data-index="10" data-audio="music/songs/11.mp3">
+          <div class="song-cover">
+            <img src="canciones/11.jpg" alt="Canción 11">
+          </div>
+
+          <div class="song-info">
+            <h3>Adore You - Harry Styles</h3>
+            <p>You're wonder under summer skies 💐</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 12 -->
+        <div class="song-card" data-index="11" data-audio="music/songs/12.mp3">
+          <div class="song-cover">
+            <img src="canciones/12.jpg" alt="Canción 12">
+          </div>
+
+          <div class="song-info">
+            <h3>Labios Rotos - Zoé</h3>
+            <p>Amor, amor, amor, amor, amor, amor 💌</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 13 -->
+        <div class="song-card" data-index="12" data-audio="music/songs/13.mp3">
+          <div class="song-cover">
+            <img src="canciones/13.jpg" alt="Canción 13">
+          </div>
+
+          <div class="song-info">
+            <h3>Innerbloom - Rüfüs Du Sol</h3>
+            <p>If you want me, if you need me, I'm yours 💝</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 14 -->
+        <div class="song-card" data-index="13" data-audio="music/songs/14.mp3">
+          <div class="song-cover">
+            <img src="canciones/14.jpg" alt="Canción 14">
+          </div>
+
+          <div class="song-info">
+            <h3>Locos - León Larregui</h3>
+            <p>Eres lo mas bonito que he visto en toda mi vida 💞</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 15 -->
+        <div class="song-card" data-index="14" data-audio="music/songs/15.mp3">
+          <div class="song-cover">
+            <img src="canciones/15.jpg" alt="Canción 15">
+          </div>
+
+          <div class="song-info">
+            <h3>Lovers Rock - TV Girl</h3>
+            <p>Love can burn like a cigarette 💓</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 16 -->
+        <div class="song-card" data-index="15" data-audio="music/songs/16.mp3">
+          <div class="song-cover">
+            <img src="canciones/16.jpg" alt="Canción 16">
+          </div>
+
+          <div class="song-info">
+            <h3>Tus Ojos - Los Cafres</h3>
+            <p>Sera que sos un angel? 💘</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 17 -->
+        <div class="song-card" data-index="16" data-audio="music/songs/17.mp3">
+          <div class="song-cover">
+            <img src="canciones/17.jpg" alt="Canción 17">
+          </div>
+
+          <div class="song-info">
+            <h3>Congratulations - Mac Miller</h3>
+            <p>Girl, I'm so in love with you 💖</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 18 -->
+        <div class="song-card" data-index="17" data-audio="music/songs/18.mp3">
+          <div class="song-cover">
+            <img src="canciones/18.jpg" alt="Canción 18">
+          </div>
+
+          <div class="song-info">
+            <h3>Flaco - Mon Laferte</h3>
+            <p>¿Quien te va a querer tanto tanto como yo? y ¿Quien me va a querer tanto tanto como tu? 💕</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 19 -->
+        <div class="song-card" data-index="18" data-audio="music/songs/19.mp3">
+          <div class="song-cover">
+            <img src="canciones/19.jpg" alt="Canción 19">
+          </div>
+
+          <div class="song-info">
+            <h3>Never Ever Getting Rid Of Me - Christopher Fitzgerald</h3>
+            <p>Wherever you go, I won't be far to follow 💛</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 20 -->
+        <div class="song-card" data-index="19" data-audio="music/songs/20.mp3">
+          <div class="song-cover">
+            <img src="canciones/20.jpg" alt="Canción 20">
+          </div>
+
+          <div class="song-info">
+            <h3>My One And Only Love - Mon Laferte</h3>
+            <p>Tu eres lo que siempre yo soñe ❤️</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 21 -->
+        <div class="song-card" data-index="20" data-audio="music/songs/21.mp3">
+          <div class="song-cover">
+            <img src="canciones/21.jpg" alt="Canción 21">
+          </div>
+
+          <div class="song-info">
+            <h3>Lost In Japan - Shawn Mendes</h3>
+            <p>I know it's more than just a friendship 💋</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 22 -->
+        <div class="song-card" data-index="21" data-audio="music/songs/22.mp3">
+          <div class="song-cover">
+            <img src="canciones/22.jpg" alt="Canción 22">
+          </div>
+
+          <div class="song-info">
+            <h3>Amor, Amor De Mis Amores - Natalia Lafourcade</h3>
+            <p>Eres mi gran amor 💗</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 23 -->
+        <div class="song-card" data-index="22" data-audio="music/songs/23.mp3">
+          <div class="song-cover">
+            <img src="canciones/23.jpg" alt="Canción 23">
+          </div>
+
+          <div class="song-info">
+            <h3>Mrs Magic - Strawberry Guy</h3>
+            <p>Loosen my mind from within 🤍</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 24 -->
+        <div class="song-card" data-index="23" data-audio="music/songs/24.mp3">
+          <div class="song-cover">
+            <img src="canciones/24.jpg" alt="Canción 24">
+          </div>
+
+          <div class="song-info">
+            <h3>Nuestro Sueño - Grupo Niche</h3>
+            <p>No me cansaré de esperarte 👩‍❤️‍💋‍👨</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 25 -->
+        <div class="song-card" data-index="24" data-audio="music/songs/25.mp3">
+          <div class="song-cover">
+            <img src="canciones/25.jpg" alt="Canción 25">
+          </div>
+
+          <div class="song-info">
+            <h3>See You Again - Tyler The Creator</h3>
+            <p>Wonder if you look both ways When you cross my mind 🌷</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 26 -->
+        <div class="song-card" data-index="25" data-audio="music/songs/26.mp3">
+          <div class="song-cover">
+            <img src="canciones/26.jpg" alt="Canción 26">
+          </div>
+
+          <div class="song-info">
+            <h3>Ojos Color Sol - Calle 13</h3>
+            <p>La vitamina D me la das tú con un beso 🌹</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 27 -->
+        <div class="song-card" data-index="26" data-audio="music/songs/27.mp3">
+          <div class="song-cover">
+            <img src="canciones/27.jpg" alt="Canción 27">
+          </div>
+
+          <div class="song-info">
+            <h3>Roi - Videoclub</h3>
+            <p>Tu es ma femme iconique, tu es mon rubis saphir 💐</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 28 -->
+        <div class="song-card" data-index="27" data-audio="music/songs/28.mp3">
+          <div class="song-cover">
+            <img src="canciones/28.jpg" alt="Canción 28">
+          </div>
+
+          <div class="song-info">
+            <h3>Perfecta - Miranda!</h3>
+            <p>Solo tu, no necesito mas, te adoraria lo que dure la eternidad 💌</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 29 -->
+        <div class="song-card" data-index="28" data-audio="music/songs/29.mp3">
+          <div class="song-cover">
+            <img src="canciones/29.jpg" alt="Canción 29">
+          </div>
+
+          <div class="song-info">
+            <h3>Wicked Game - Chris Isaak</h3>
+            <p>I'd never dreamed that I'd meet somebody like you 🥰</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CANCIÓN 30 -->
+        <div class="song-card" data-index="29" data-audio="music/songs/30.mp3">
+          <div class="song-cover">
+            <img src="canciones/30.jpg" alt="Canción 30">
+          </div>
+
+          <div class="song-info">
+            <h3>Tengo Ganas - Andrés Cepeda</h3>
+            <p>No revises el pasado que entristece, No te niegues si el amor te pertenece. 😍</p>
+
+            <div class="song-controls">
+              <button class="song-play">▶️</button>
+              <div class="song-progress">
+                <div class="song-progress-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+        <!-- Flecha derecha -->
+      <button class="songs-arrow right" aria-label="Siguiente canción">❯</button>
+
+    </div>
+
+  </section>
+
+      <!-- =========================
+      SECCIÓN NUESTRO FUTURO
+  ========================= -->
+  <section id="futuro" class="future-section">
+
+    <!-- HEADER -->
+    <div class="future-header">
+      <h2>Nuestro Futuro 💛</h2>
+      <p>Sueños que quiero cumplir contigo.</p>
+    </div>
+
+    <!-- CARRUSEL -->
+    <div class="future-carousel">
+
+      <!-- Flecha izquierda -->
+      <button class="future-arrow left">❮</button>
+
+      <!-- CONTENEDOR -->
+      <div class="future-track">
+
+        <!-- META 1 -->
+        <div class="future-card active" data-index="0">
+          <img src="futuro/01.png" alt="Meta 1">
+          <h3>Estos somos nosotros en la actualidad</h3>
+        </div>
+
+        <!-- META 2 -->
+        <div class="future-card" data-index="1">
+          <img src="futuro/02.png" alt="Meta 2">
+          <h3>Quiero que estes en mi graduación</h3>
+        </div>
+
+        <!-- META 3 -->
+        <div class="future-card" data-index="2">
+          <img src="futuro/03.png" alt="Meta 3">
+          <h3>Quiero estar en tu graduación</h3>
+        </div>
+
+        <!-- META 4 -->
+        <div class="future-card" data-index="3">
+          <img src="futuro/04.png" alt="Meta 4">
+          <h3>Quiero tener mi hogar contigo</h3>
+        </div>
+
+        <!-- META 5 -->
+        <div class="future-card" data-index="4">
+          <img src="futuro/05.png" alt="Meta 5">
+          <h3>Quiero viajar y conocer el mundo a tu lado</h3>
+        </div>
+
+        <!-- META 6 -->
+        <div class="future-card" data-index="5">
+          <img src="futuro/06.png" alt="Meta 6">
+          <h3>Quiero agregarle un perrito a la familia que ya tenemos</h3>
+        </div>
+
+        <!-- META 7 -->
+        <div class="future-card" data-index="6">
+          <img src="futuro/07.png" alt="Meta 7">
+          <h3>Quiero casarme contigo</h3>
+        </div>
+
+        <!-- META 8 -->
+        <div class="future-card" data-index="7">
+          <img src="futuro/08.png" alt="Meta 8">
+          <h3>Quiero una camioneta grande como te gustan</h3>
+        </div>
+
+        <!-- META 9 -->
+        <div class="future-card" data-index="8">
+          <img src="futuro/09.png" alt="Meta 9">
+          <h3>Quiero compartir tus sueños</h3>
+        </div>
+
+        <!-- META 10 -->
+        <div class="future-card" data-index="9">
+          <img src="futuro/10.png" alt="Meta 10">
+          <h3>Quiero formar una familia</h3>
+        </div>
+
+        <!-- META 11 -->
+        <div class="future-card" data-index="10">
+          <img src="futuro/11.png" alt="Meta 11">
+          <h3>Quiero Envejecer o morir contigo</h3>
+        </div>
+
+        <!-- META 12 -->
+        <div class="future-card" data-index="11">
+          <img src="futuro/12.png" alt="Meta 12">
+          <h3>Quiero estar contigo por la eternidad</h3>
+        </div>
+
+      </div>
+
+      <!-- Flecha derecha -->
+      <button class="future-arrow right">❯</button>
+
+    </div>
+
+  </section>
+
+    <!-- =========================
+      SECCIÓN CARTA
+========================= -->
+<section id="carta" class="letter-section">
+
+  <!-- CONTENEDOR BUZÓN -->
+  <div class="mailbox-container">
+
+    <!-- BUZÓN -->
+    <div class="mailbox" id="mailbox">
+      <img src="carta/buzon.png" alt="Buzón de amor">
+      <p class="mailbox-text">Haz clic en el buzón 💌</p>
+    </div>
+
+  </div>
+
+  <!-- =========================
+       CARTA (OCULTA AL INICIO)
+  ========================= -->
+  <div class="letter-paper hidden" id="letterPaper">
+
+    <h2 class="letter-title">
+      Pau, Juli, Buchoncita, Repollito, Amor de mi vida 💗
+    </h2>
+
+    <div class="letter-content">
+
+      <p>
+        Hoy no es un día cualquiera. San Valentín suele llenarse de flores,
+        mensajes rápidos y palabras repetidas que a veces dicen poco. Yo no
+        quería regalarte algo así, sabiendo que no estamos juntos. Quería intentar algo distinto,
+        algo que no te había hecho antes, y quise crear mi primera página web con temática de nosotros, aprovechando estas fechas.
+      </p>
+
+      <p>
+        Este día habla de amor, pero también de valentía. Y escribirte es,
+        para mí, un acto de valentía. No porque espere algo a cambio, sino
+        porque lo que siento por ti merece ser dicho, mereces saberlo, y te
+        lo escribo con amor, con madurez y con la calma de quien ya no ama
+        desde la prisa, sino desde la conciencia.
+      </p>
+
+      <p>
+        No escribo esto para confundirte ni para pedirte algo que no puedas dar.
+        Lo escribo porque callarlo ya no me representa, y porque hoy soy una versión
+        de mí que aprendió a hablar con el corazón abierto y los pies en la tierra.
+      </p>
+
+      <p>
+        He cambiado. No como promesa, sino como decisión. He mirado de frente actitudes
+        mías que en el pasado te lastimaron, y no las justifico. Las entendí,
+        las trabajé y las transformé, porque perderte, aunque haya sido una tragedia,
+        me enseñó cosas que antes no veía. Hoy soy más consciente, más paciente,
+        más responsable con lo que siento y con lo que ofrezco.
+      </p>
+
+      <p>
+        Quiero que sepas que no te miro desde la nostalgia, sino desde el presente.
+        Y desde este presente, te pienso a futuro. Me proyecto contigo no como un
+        sueño idealizado, sino como una elección real: construir, crecer, equivocarnos
+        con respeto y volver a elegirnos cada día. Mi idea de amor ya no es urgencia,
+        es compromiso; ya no es impulso, es intención.
+      </p>
+
+      <p>
+        Sé que ahora somos amigos. Sé que volver no es fácil, y que quizá no sea el momento…
+        o quizá nunca lo sea. Aun así, aquí estoy. No esperando con ansiedad, sino con
+        esperanza serena. Esperando sin exigir, queriendo sin atarte. En este tiempo de
+        espera incierta sigo puliendo mis buenos sentimientos, con la esperanza de que
+        seas tú quien goce de ellos.
+      </p>
+
+      <p>
+        Este San Valentín no quiero prometerte perfección. Quiero ofrecerte sinceridad.
+        Un amor que aprendió de sus errores, que entiende los tiempos y que, aun así,
+        no se rinde en lo que siente. Porque si el amor existe para celebrarse un día
+        como hoy, el mío por ti existe todos los días.
+      </p>
+
+      <p>
+        Deseo una vida a tu lado. Deseo despertar con tu risa cerca, compartir silencios
+        que no incomoden, planes simples que se vuelvan hogar. Deseo amarte con calma,
+        pero con fuego; con ternura, pero con pasión. Porque lo que siento por ti no es
+        tibio, es profundo.
+      </p>
+
+      <p>
+        Si algún día decides mirar hacia atrás y preguntar si alguien te esperó de verdad,
+        quiero que sepas que fui yo. Aquí. Más entero, más honesto, más listo para amar bien.
+      </p>
+
+      <p class="letter-sign">
+        Con todo mi amor,<br>
+        Andrés 💛
+      </p>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- =========================
+     FOOTER / CONTACTO
+========================= -->
+<footer id="contacto" class="footer-section">
+
+  <div class="footer-contact"> <div class="footer-item">
+    <span class="footer-icon">📱</span>
+    <h4>WhatsApp</h4>
+    <p>+57 310 791 3775</p>
+  </div>
+
+  <div class="footer-item">
+    <span class="footer-icon">📷</span>
+    <h4>Instagram</h4>
+    <p>@el_cely</p>
+  </div>
+
+  <div class="footer-item">
+    <span class="footer-icon">✉️</span>
+    <h4>Correo</h4>
+    <p>sebastian29092018@gmail.com</p>
+  </div>
+
+</div>
+
+    <!-- FIRMA -->
+    <p class="footer-sign">
+      Hecho con amor por Andrés 💛
+    </p>
+
+  </div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
